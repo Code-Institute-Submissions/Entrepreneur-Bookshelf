@@ -44,7 +44,7 @@
                 >Profile</a
               >
             </li>
-            <li><a href="#">New Book</a></li>
+            <li><a href="{{ url_for('add_book') }}">New Book</a></li>
             <li><a href="#">Manage Categories</a></li>
             <li><a href="{{ url_for('logout') }}">Log Out</a></li>
             {% else %}
@@ -69,7 +69,7 @@
             >Profile</a
           >
         </li>
-        <li><a href="#">New Book</a></li>
+        <li><a href="{{ url_for('add_book') }}">New Book</a></li>
         <li><a href="#">Manage Categories</a></li>
         <li><a href="{{ url_for('logout') }}">Log Out</a></li>
         {% else %}
