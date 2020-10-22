@@ -38,6 +38,7 @@
           ></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="{{ url_for('get_books') }}">Home</a></li>
+            {% if session.reader %}
             <li>
               <a href="{{ url_for('profile', username=session['reader']) }}"
                 >Profile</a
@@ -45,9 +46,11 @@
             </li>
             <li><a href="#">New Book</a></li>
             <li><a href="#">Manage Categories</a></li>
+            <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+            {% else %}
             <li><a href="{{ url_for('login') }}">Log In</a></li>
-            <li><a href="#">Log Out</a></li>
             <li><a href="{{ url_for('register') }}">Register</a></li>
+            {% endif %}
           </ul>
         </div>
       </nav>
@@ -60,6 +63,7 @@
           </h4>
         </li>
         <li><a href="{{ url_for('get_books') }}">Home</a></li>
+        {% if session.reader %}
         <li>
           <a href="{{ url_for('profile', username=session['reader']) }}"
             >Profile</a
@@ -67,9 +71,11 @@
         </li>
         <li><a href="#">New Book</a></li>
         <li><a href="#">Manage Categories</a></li>
+        <li><a href="{{ url_for('logout') }}">Log Out</a></li>
+        {% else %}
         <li><a href="{{ url_for('login') }}">Log In</a></li>
-        <li><a href="#">Log Out</a></li>
         <li><a href="{{ url_for('register') }}">Register</a></li>
+        {% endif %}
       </ul>
     </header>
 

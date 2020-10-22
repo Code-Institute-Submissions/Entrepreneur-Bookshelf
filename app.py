@@ -31,7 +31,7 @@ def register():
             {"username": request.form.get("username").lower()})
 
         if existing_reader:
-            flash("Whoops! This reader's username already exists. Please, try again.")
+            flash("🤦🏼‍♂️ This reader's username already exists. Please, try again.")
             return redirect(url_for("register"))
 
         register = {
@@ -42,7 +42,7 @@ def register():
 
         # Let's put the new user into their 'session' cookie
         session["reader"] = request.form.get("username").lower()
-        flash("Excellent! Successful Registration!")
+        flash("🎉 Successful Registration!")
         return redirect(url_for("profile", username=session["reader"]))
     return render_template("register.html")
 
@@ -65,12 +65,12 @@ def login():
 
             else:
                 # Let's let them know something is not right
-                flash("Incorrect Username and/or Password")
+                flash("🤔 Incorrect Username and/or Password")
                 return redirect(url_for("login"))
 
         else:
             # Let's let them know something is not right
-            flash("Incorrect Username and/or Password")
+            flash("🤔 Incorrect Username and/or Password")
             return redirect(url_for("login"))
     return render_template("login.html")
 
@@ -80,7 +80,19 @@ def profile(username):
     # Let's grab the session user's username from the database
     username = mongo.db.readers.find_one(
         {"username": session["reader"]})["username"]
-    return render_template("profile.html", username=username)
+
+    if session["reader"]:
+        return render_template("profile.html", username=username)
+
+    return redirect(url_for("login"))
+
+
+@app.route("/logout")
+def logout():
+    # Let's remove the reader from the session cookies
+    flash("You have logged out! 👋🏼")
+    session.pop("reader")
+    return redirect(url_for("login"))
 
 
 if __name__ == "__main__":
