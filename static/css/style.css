@@ -21,6 +21,12 @@ nav ul {
   border-radius: 5px;
 }
 
+.waves-effect.waves-orange .waves-ripple {
+  /* The alpha value allows the text and background color
+   of the button to still show through. */
+  background-color: rgba(230, 81, 0, 0.65);
+}
+
 .switch label input[type="checkbox"]:checked + .lever,
 .switch label input[type="checkbox"]:checked + .lever:after,
 .datepicker-date-display,
@@ -55,7 +61,7 @@ nav ul {
   }
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 724px) {
   nav .brand-logo {
     font-size: 1rem;
   }
