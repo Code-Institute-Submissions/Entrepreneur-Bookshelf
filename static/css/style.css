@@ -38,7 +38,10 @@ nav ul {
   color: #e65100;
 }
 
-.card-panel {
+.card-panel,
+.btn-large,
+.dropdown-content,
+.datepicker-modal {
   border-radius: 5px;
 }
 
@@ -49,5 +52,15 @@ nav ul {
 
   nav ul {
     margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  nav .brand-logo {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 2rem;
   }
 }
