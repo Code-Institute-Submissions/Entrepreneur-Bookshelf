@@ -16,8 +16,14 @@
       {% endif %}
     </div>
     <div class="collapsible-body">
-      <strong>Category: {{ book.category_name }}</strong>
-      <p>Author: {{ book.book_author }}</p>
+      <strong
+        ><i class="fas fa-bookmark prefix orange-text text-darken-4"></i>
+        Category: {{ book.category_name }}</strong
+      >
+      <p>
+        <i class="fas fa-feather-alt prefix orange-text text-darken-4"></i>
+        Author: {{ book.book_author }}
+      </p>
       <p><em>Added by: {{ book.added_by }}</em></p>
     </div>
   </li>
