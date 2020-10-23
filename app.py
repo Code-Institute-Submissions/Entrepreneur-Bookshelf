@@ -95,8 +95,22 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_book")
+@app.route("/add_book", methods=["GET", "POST"])
 def add_book():
+    if request.method == "POST":
+        is_priority = "on" if request.form.get("is_priority") else "off"
+        book = {
+            "category_name": request.form.get("category_name"),
+            "book_title": request.form.get("book_title"),
+            "book_author": request.form.get("book_author"),
+            "is_priority": is_priority,
+            "read_by_date": request.form.get("read_by_date"),
+            "added_by": session["reader"]
+        }
+        mongo.db.books.insert_one(book)
+        flash("📚 Book Successfully Added")
+        return redirect(url_for("get_books"))
+
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("add_book.html", categories=categories)
 

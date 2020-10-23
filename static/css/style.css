@@ -15,7 +15,8 @@ body {
 
 .switch label input[type="checkbox"]:checked + .lever,
 .switch label input[type="checkbox"]:checked + .lever:after,
-.datepicker-date-display {
+.datepicker-date-display,
+.datepicker-table td.is-selected {
   background-color: #e65100;
 }
 
@@ -25,6 +26,6 @@ body {
 .datepicker-today,
 .datepicker-done,
 .dropdown-content li > a,
-.dropdown-content li > span  {
+.dropdown-content li > span {
   color: #e65100;
 }

@@ -3,7 +3,7 @@
 <h3 class="orange-text text-darken-4 center-align">Add a Book</h3>
 
 <div class="row card-panel grey lighten-5">
-  <form class="col s12" method="POST" action="">
+  <form class="col s12" method="POST" action="{{ url_for('add_book') }}">
     <div class="row">
       <div class="input-field col s12">
         <i class="fas fa-bookmark prefix orange-text text-darken-4"></i>
@@ -83,6 +83,15 @@
             Is a Priority
           </label>
         </div>
+      </div>
+    </div>
+
+    <!-- Button to submit the new book -->
+    <div class="row">
+      <div class="col s12 center-align">
+        <button type="submit" class="btn-large orange darken-1 text-shadow">
+          Add a Book <i class="fas fa-plus-square right"></i>
+        </button>
       </div>
     </div>
   </form>

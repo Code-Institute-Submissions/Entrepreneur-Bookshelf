@@ -1,5 +1,7 @@
 {% extends "base.html" %} {% block content %}
 
+<h3 class="orange-text text-darken-4 center-align">All Books</h3>
+
 <ul class="collapsible">
   {% for book in books %}
   <li>
@@ -16,6 +18,7 @@
     <div class="collapsible-body">
       <strong>{{ book.category_name }}</strong>
       <p>{{ book.book_author }}</p>
+      <p><em>Added by: {{ book.added_by }}</em></p>
     </div>
   </li>
   {% endfor %}
