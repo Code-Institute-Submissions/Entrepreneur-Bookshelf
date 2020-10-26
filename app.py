@@ -146,8 +146,10 @@ def delete_book(book_id):
 
 @app.route("/get_categories")
 def get_categories():
+    username = mongo.db.readers.find_one(
+        {"username": session["reader"]})["username"]
     categories = list(mongo.db.categories.find().sort("category_name", 1))
-    return render_template("categories.html", categories=categories)
+    return render_template("categories.html", categories=categories, username=username)
 
 
 @app.route("/add_category", methods=["GET", "POST"])
