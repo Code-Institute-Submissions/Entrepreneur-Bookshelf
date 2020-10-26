@@ -17,7 +17,7 @@
   <div class="col s12 center-align">
     <a
       href="{{ url_for('add_category') }}"
-      class="btn-large orange darken-2 text-shadow"
+      class="btn-large orange darken-2 text-shadow waves-effect waves-light"
     >
       Add Category <i class="fas fa-plus-square right"></i>
     </a>
@@ -32,8 +32,10 @@
         <span class="card-title">{{ category.category_name }}</span>
       </div>
       <div class="card-action">
-        <a href="#" class="btn green accent-4">Edit</a>
-        <a href="#" class="btn orange lighten-1">Delete</a>
+        <a href="#" class="btn green accent-4 waves-effect waves-light">Edit</a>
+        <a href="#" class="btn orange lighten-1 waves-effect waves-light"
+          >Delete</a
+        >
       </div>
     </div>
   </div>
