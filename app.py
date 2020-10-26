@@ -159,7 +159,7 @@ def add_category():
             "category_name": request.form.get("category_name")
         }
         mongo.db.categories.insert_one(category)
-        flash("👏🏼 New Category Added")
+        flash("🔖 New Category Added")
         return redirect(url_for("get_categories"))
 
     username = mongo.db.readers.find_one(
