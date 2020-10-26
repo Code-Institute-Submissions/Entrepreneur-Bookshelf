@@ -1,6 +1,15 @@
 {% extends "base.html" %} {% block content %}
 
-<h3 class="orange-text text-darken-4 center-align">All Books</h3>
+<div class="row">
+  <div class="col s12 m8 offset-m2 page_head">
+    <div class="card-panel">
+      <h3 class="center-align orange-text text-darken-4">
+        <i class="fas fa-book prefix orange-text text-darken-4 text-shadow"></i>
+        All Books
+      </h3>
+    </div>
+  </div>
+</div>
 
 <ul class="collapsible">
   {% for book in books %}

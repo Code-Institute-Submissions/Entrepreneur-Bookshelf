@@ -1,18 +1,23 @@
 {% extends "base.html" %} {% block content %}
 
 <div class="row">
-  <div class="col s12 m8 offset-m2 profile">
+  <div class="col s12 m8 offset-m2 page_head">
     <div class="card-panel">
-      <h3 class="center-align light-orange-text text-darken-4">
-        <i class="fas fa-book-reader prefix orange-text text-darken-4"></i> {{
-        username }}'s Profile
+      <h3 class="center-align orange-text text-darken-4">
+        <i
+          class="fas fa-book-reader prefix orange-text text-darken-4 text-shadow"
+        ></i>
+        {{ username }}'s Profile
       </h3>
     </div>
   </div>
 </div>
 
 <!-- Let's show the reader's books -->
-<h3 class="orange-text text-darken-4 center-align">My Books</h3>
+<h3 class="orange-text text-darken-4 center-align">
+  <i class="fas fa-book prefix orange-text text-darken-4 text-shadow"></i> My
+  Books
+</h3>
 <ul class="collapsible">
   {% for book in books %} {% if session.reader|lower == book.added_by|lower %}
   <li>

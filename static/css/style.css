@@ -54,8 +54,9 @@ nav ul {
   line-height: 2.8rem;
 }
 
-.profile .card-panel {
+.page_head .card-panel {
   padding: 8px;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 992px) {
