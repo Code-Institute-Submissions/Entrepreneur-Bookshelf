@@ -59,7 +59,11 @@
                 >New Book</a
               >
             </li>
-            <li><a href="#">Manage Categories</a></li>
+            {% if session.reader|lower == "admin"|lower %}
+            <li>
+              <a href="{{ url_for('get_categories') }}">Manage Categories</a>
+            </li>
+            {% endif %}
             <li>
               <a href="{{ url_for('logout') }}" class="waves-effect waves-light"
                 >Log Out</a
@@ -108,7 +112,9 @@
             >New Book</a
           >
         </li>
-        <li><a href="#">Manage Categories</a></li>
+        {% if session.reader|lower == "admin"|lower %}
+        <li><a href="{{ url_for('get_categories') }}">Manage Categories</a></li>
+        {% endif %}
         <li>
           <a href="{{ url_for('logout') }}" class="waves-effect waves-orange"
             >Log Out</a

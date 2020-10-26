@@ -13,7 +13,7 @@ nav ul {
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .flashes h5 {
@@ -41,7 +41,8 @@ nav ul {
 .card-panel,
 .btn-large,
 .dropdown-content,
-.datepicker-modal {
+.datepicker-modal,
+.categories .card {
   border-radius: 5px;
 }
 
@@ -57,6 +58,11 @@ nav ul {
 .page_head .card-panel {
   padding: 8px;
   margin-top: 2rem;
+}
+
+.card .card-content .card-title {
+  line-height: 1;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 992px) {
