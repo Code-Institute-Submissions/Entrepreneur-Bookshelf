@@ -11,6 +11,7 @@
   </div>
 </div>
 
+<!-- Let's show the reader's books -->
 <h3 class="orange-text text-darken-4 center-align">My Books</h3>
 <ul class="collapsible">
   {% for book in books %} {% if session.reader|lower == book.added_by|lower %}
