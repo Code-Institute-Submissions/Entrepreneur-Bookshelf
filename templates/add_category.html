@@ -1,4 +1,5 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %} {% block content %} {% if session.reader|lower ==
+"admin"|lower %}
 
 <div class="row">
   <div class="col s12 m8 offset-m2 page_head">
@@ -46,4 +47,17 @@
   </form>
 </div>
 
-{% endblock %}
+{% else %}
+
+<div class="row">
+  <div class="col s12 m8 offset-m2 page_head">
+    <div class="card-panel">
+      <h3 class="center-align orange-text text-darken-4">
+        <i class="fas fa-ban prefix orange-text text-darken-4 text-shadow"></i>
+        No Admin Logged In
+      </h3>
+    </div>
+  </div>
+</div>
+
+{% endif %} {% endblock %}

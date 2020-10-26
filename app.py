@@ -162,7 +162,9 @@ def add_category():
         flash("👏🏼 New Category Added")
         return redirect(url_for("get_categories"))
 
-    return render_template("add_category.html")
+    username = mongo.db.readers.find_one(
+        {"username": session["reader"]})["username"]
+    return render_template("add_category.html", username=username)
 
 
 if __name__ == "__main__":
