@@ -54,6 +54,10 @@ nav ul {
   line-height: 2.8rem;
 }
 
+.profile .card-panel {
+  padding: 8px;
+}
+
 @media screen and (max-width: 992px) {
   nav .brand-logo {
     margin-left: 0rem;
@@ -71,5 +75,9 @@ nav ul {
 
   h3 {
     font-size: 2rem;
+  }
+
+  .collapsible-header {
+    display: flow-root;
   }
 }
