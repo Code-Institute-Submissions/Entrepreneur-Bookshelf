@@ -32,7 +32,11 @@
         <span class="card-title">{{ category.category_name }}</span>
       </div>
       <div class="card-action">
-        <a href="#" class="btn green accent-4 waves-effect waves-light">Edit</a>
+        <a
+          href="{{ url_for('edit_category', category_id=category._id) }}"
+          class="btn green accent-4 waves-effect waves-light"
+          >Edit</a
+        >
         <a href="#" class="btn orange lighten-1 waves-effect waves-light"
           >Delete</a
         >
