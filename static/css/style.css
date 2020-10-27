@@ -69,6 +69,8 @@ nav ul {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+/* Section for media, to adjust behavious in smaller viewports */
+
 @media screen and (max-width: 992px) {
   nav .brand-logo {
     margin-left: 0rem;
