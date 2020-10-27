@@ -92,3 +92,15 @@ nav ul {
     display: flow-root;
   }
 }
+
+@media screen and (max-width: 488px) {
+  .edit_category a {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .edit_book a {
+    margin-bottom: 1rem;
+  }
+}
