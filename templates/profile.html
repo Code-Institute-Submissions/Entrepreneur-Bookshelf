@@ -24,9 +24,10 @@
     <div class="collapsible-header white-text orange darken-4 text-shadow">
       <div class="col s3">
         <i class="fas fa-angle-down"></i>
+        <!-- Trigger for read confirmation modal -->
         <a
-          href="{{ url_for('delete_book', book_id=book._id) }}"
-          class="btn-small green accent-4 waves-effect waves-light"
+          class="btn-small green accent-4 waves-effect waves-light modal-trigger"
+          href="#readmodal"
           >Read</a
         >
         <a
@@ -62,6 +63,34 @@
       <p><em>Added by: {{ book.added_by }}</em></p>
     </div>
   </li>
+
+  <!-- Structure for read confirmation modal -->
+  <div id="readmodal" class="modal">
+    <div class="modal-content left-align">
+      <h4 class="orange-text text-darken-4">
+        <i
+          class="fas fa-exclamation orange-text text-darken-4 text-shadow left"
+        ></i>
+        Read Confirmation
+      </h4>
+      <p class="black-text">
+        Are you sure you want to mark this book as read?
+      </p>
+    </div>
+    <div class="modal-footer">
+      <a
+        href="#!"
+        class="modal-close waves-effect waves-green btn red text-shadow"
+        >Cancel <i class="fas fa-window-close right"></i
+      ></a>
+      <a
+        href="{{ url_for('delete_book', book_id=book._id) }}"
+        class="btn green accent-4 waves-effect waves-light modal-close"
+        >Read<i class="fas fa-check-double right"></i
+      ></a>
+    </div>
+  </div>
+
   {% endif %} {% endfor %}
 </ul>
 {% endblock%}
