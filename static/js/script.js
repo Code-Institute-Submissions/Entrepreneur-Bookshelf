@@ -13,6 +13,7 @@ $(document).ready(function () {
     },
   });
 
+  // Tje JS below is a workaround to make the dropdown on the new book form to behave like a proper required field.
   validateMaterializeSelect();
   function validateMaterializeSelect() {
     let classValid = {
