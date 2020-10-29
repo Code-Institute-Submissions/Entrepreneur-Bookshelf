@@ -10,7 +10,7 @@ $(document).ready(function () {
   $(".modal").modal();
   $(".datepicker").datepicker({
     format: "dd mmmm, yyyy",
-    yearRange: [2020, 2023],
+    yearRange: [currYear, currYear + 3],
     minDate: new Date(currYear, currMonth, currDay),
     showClearBtn: true,
     i18n: {
@@ -18,7 +18,7 @@ $(document).ready(function () {
     },
   });
 
-  // Tje JS below is a workaround to make the dropdown on the new book form to behave like a proper required field.
+  // The JS below is a workaround to make the dropdown on the new book form to behave like a proper required field.
   validateMaterializeSelect();
   function validateMaterializeSelect() {
     let classValid = {
