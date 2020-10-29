@@ -41,11 +41,38 @@
           class="btn green accent-4 waves-effect waves-light"
           >Edit</a
         >
+        <!-- Trigger for delete confirmation modal -->
         <a
-          class="btn orange lighten-1 waves-effect waves-light"
-          href="{{ url_for('delete_category', category_id=category._id) }}"
+          class="btn orange lighten-1 waves-effect waves-light modal-trigger"
+          href="#deletemodal{{ category._id }}"
           >Delete</a
         >
+        <!-- Structure for delete confirmation modal -->
+        <div id="deletemodal{{ category._id }}" class="modal">
+          <div class="modal-content left-align">
+            <h4 class="orange-text text-darken-4">
+              <i
+                class="fas fa-exclamation orange-text text-darken-4 text-shadow left"
+              ></i>
+              Delete Confirmation
+            </h4>
+            <p class="black-text">
+              Are you sure you want to delete this category?
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="#!"
+              class="modal-close waves-effect waves-light btn red text-shadow"
+              >Cancel <i class="fas fa-window-close right"></i
+            ></a>
+            <a
+              href="{{ url_for('delete_category', category_id=category._id) }}"
+              class="btn orange lighten-1 waves-effect waves-light modal-close"
+              >Delete <i class="fas fa-trash right"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
