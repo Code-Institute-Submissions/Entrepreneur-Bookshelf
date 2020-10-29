@@ -92,9 +92,9 @@
 
       <!-- Let's show the books saved in the database -->
       <div class="col s9">
-        <strong>{{ book.book_title }}</strong>: {{ book.read_by_date }} {% if
-        session.reader|lower == book.added_by|lower %} {% if book.is_priority ==
-        "on" %}
+        <strong>Title: {{ book.book_title }}</strong>| Read by: {{
+        book.read_by_date }} {% if session.reader|lower == book.added_by|lower
+        %} {% if book.is_priority == "on" %}
         <i
           class="fas fa-hand-point-left orange-text text-lighten-2 tooltipped"
           data-position="right"
