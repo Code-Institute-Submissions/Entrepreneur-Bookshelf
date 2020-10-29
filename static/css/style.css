@@ -68,6 +68,11 @@ nav ul {
 
 .modal h4 i {
   font-size: 2.28rem;
+  width: 1rem;
+}
+
+.modal .modal-footer i {
+  width: 1rem;
 }
 
 .btn-small {
