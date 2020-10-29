@@ -1,3 +1,7 @@
+var currYear = new Date().getFullYear();
+var currMonth = new Date().getMonth();
+var currDay = new Date().getDate();
+
 $(document).ready(function () {
   $(".sidenav").sidenav({ edge: "right" });
   $(".collapsible").collapsible();
@@ -7,6 +11,7 @@ $(document).ready(function () {
   $(".datepicker").datepicker({
     format: "dd mmmm, yyyy",
     yearRange: [2020, 2023],
+    minDate: new Date(currYear, currMonth, currDay),
     showClearBtn: true,
     i18n: {
       done: "Select",
