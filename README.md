@@ -1,6 +1,6 @@
 <p id="top"></p>
 
-![King Metric Logo](https://i.imgur.com/tbmnb2Y.png)
+![Entrepreneur's Bookshelf Icon](https://i.imgur.com/JJC2MEUt.jpg)
 
 ---
 
@@ -18,16 +18,22 @@
 
 <span id="project"></span>
 
-# King Metric
+# Entrepreneur's Bookshelf
 
-This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
+This project presents a to-read list focused on entrepreneurship, with book categories focused on the different areas that an entrepreneur must manage and consider.
 
-One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
-* The converter.
-* The Google Maps API, where it shows the countries still using the Imperial System, and
-* The contact form, where EMailJS is used to send the messages.
+One of the purposes of this project is to demonstrate the developer skills with Python, Flask and MongoDB. You will be able to see this in the section of the app:
+* The app has a base.html page and the other pages are an extension of it.
+* Logics are built within each HTML page to show specific information.
+* All book's data are stored on MongoDB, and the app continuously pulls and pushes information as required.
+* The reader registration, allowing readers to create an account.
+* The login and logout, allowing readers to access and exit their accounts.
+* The editing option, allowing readers to edit (update) the books they list.
+* The reading option, allowing readers to mark books as read, which removes the book from the list.
+* The admin profile, which allows for management of the app's categories.
+* The search function, allowing readers to search within the books listed by keyword.
 
-*This is for educational purposes only.*
+*This project is for educational purposes only.*
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -35,22 +41,24 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ## 1. UX 💻
 
-### 1.1 Who is this website for? 👨‍👩‍
+### 1.1 Who is this app for? 👨‍👩‍
 
-This website is for users interested in knowing a bit more about the Metric System and need to convert measurements from the Imperial System.
+This app is for entrepreneurs interested in keeping track of their reading priorities to improve their knowledge and skills related to starting and running a business, therefore, improving their probability of success.
+
+Readers will also have a chance to see books that other entrepreneurs are reading.
 
 ### 1.2 What is it that they want to achieve? 🎯
 
-Users visit the website for different reasons. They want to:
-
-- Learn a bit more about the history of the Metric System.
-- Learn who is still officially using the Imperial System.
-- Convert Imperial measurements to the Metric System.
+Readers visit the app for different reasons. They want to:
+- Keep track of their entrepreneurship reading.
+- Learn about what others entrepreneurs are reading.
 - Get in touch with the developer behind the project.
 
 ### 1.3 How my project is the best way to help them achieve those things? 👨‍💻
 
-The King Metric website provides all the necessary tools to convert basic Imperial measurements to the Metric System. It also provides a bit of history on the Metric System and who are the countries that to this day are still officially using the Imperial System.
+The Entrepreneur's Bookshelf provides all the necessary features to allow readers to keep track of their reading. Much like what a to-do list offers, this app offers a to-read list focused on entrepreneurship.
+
+It also provides a clear vision of what other entrepreneurs are reading, giving them inspiration for their next books.
 
 #### 1.3.1 Learn a bit more about the history of the Metric System. 📚
 
