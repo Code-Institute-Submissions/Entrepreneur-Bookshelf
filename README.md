@@ -23,17 +23,18 @@
 This project presents a to-read list focused on entrepreneurship, with book categories focused on the different areas that an entrepreneur must manage and consider.
 
 One of the purposes of this project is to demonstrate the developer skills with Python, Flask and MongoDB. You will be able to see this in the section of the app:
-* The app has a base.html page and the other pages are an extension of it.
-* Logics are built within each HTML page to show specific information.
-* All book's data are stored on MongoDB, and the app continuously pulls and pushes information as required.
-* The reader registration, allowing readers to create an account.
-* The login and logout, allowing readers to access and exit their accounts.
-* The editing option, allowing readers to edit (update) the books they list.
-* The reading option, allowing readers to mark books as read, which removes the book from the list.
-* The admin profile, which allows for management of the app's categories.
-* The search function, allowing readers to search within the books listed by keyword.
 
-*This project is for educational purposes only.*
+- The app has a base.html page and the other pages are an extension of it.
+- Logics are built within each HTML page to show specific information.
+- All book's data are stored on MongoDB, and the app continuously pulls and pushes information as required.
+- The reader registration, allowing readers to create an account.
+- The login and logout, allowing readers to access and exit their accounts.
+- The editing option, allowing readers to edit (update) the books they list.
+- The reading option, allowing readers to mark books as read, which removes the book from the list.
+- The admin profile, which allows for management of the app's categories.
+- The search function, allowing readers to search within the books listed by keyword.
+
+_This project is for educational purposes only._
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -50,6 +51,7 @@ Readers will also have a chance to see books that other entrepreneurs are readin
 ### 1.2 What is it that they want to achieve? 🎯
 
 Readers visit the app for different reasons. They want to:
+
 - Keep track of their entrepreneurship reading.
 - Learn about what others entrepreneurs are reading.
 - Get in touch with the developer behind the project.
@@ -64,7 +66,7 @@ It also provides a clear vision of what other entrepreneurs are reading, giving 
 
 The app allows entrepreneurs to:
 
-- Register and create an account. 
+- Register and create an account.
 - Add new books to the reading list (Book title and author).
 - Set a read by date to each book.
 - Set priority for essential books.
@@ -101,7 +103,6 @@ First and foremost, the essential elements that had to be in place were:
 - **Simplicity**: The app has to be simple, easy to navigate, read and interact.
 
 This project was developed to be presented as Milestone 3 for CI's Full Stack Software Development course. MS3 requires the explicit use of Python, Flask, MongoDB and CRUD development to provide site visitors with interactivity and data management, so the decision was made to focus on a simple overall app, but with clear, interactive elements and management levels in it.
-
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -177,7 +178,6 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 ## 4. Testing 🧪
 
 ### 4.1 Testing Tools ⚗
-
 
 - <a href="https://developers.google.com/web/tools/chrome-devtools" rel="noopener" target="_blank">**Chrome DevTools**</a>
   - The project used **Chrome DevTools** to test variations to the CSS rules and ideas to its optimisation.
