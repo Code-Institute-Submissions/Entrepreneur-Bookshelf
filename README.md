@@ -60,39 +60,34 @@ The Entrepreneur's Bookshelf provides all the necessary features to allow reader
 
 It also provides a clear vision of what other entrepreneurs are reading, giving them inspiration for their next books.
 
-#### 1.3.1 Learn a bit more about the history of the Metric System. 📚
+#### 1.3.1 Keep track of their entrepreneurship reading. ✅
 
-The website provides:
+The app allows entrepreneurs to:
 
-- A "Origins" section in which background information is provided about the Metric System.
-- Inside the website's footer, a direct link to the <a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" rel="noopener" target="_blank">Wikipedia page</a> where the content for the "Origins" section was taken.
+- Register and create an account. 
+- Add new books to the reading list (Book title and author).
+- Set a read by date to each book.
+- Set priority for essential books.
+- Edit the books they added.
+- Mark books as read and remove them from their list.
 
-#### 1.3.2 Learn who is still officially using the Imperial System. 📚
+#### 1.3.2 Learn about what others entrepreneurs are reading. 📚
 
-The website provides:
+The app allows entrepreneurs to:
 
-- A "The Others" section in which information and a map are provided about the countries who are still officially using the Imperial System.
-- Inside the website's footer, a direct link to the <a href="https://www.worldatlas.com/articles/which-countries-use-the-imperial-system.html" rel="noopener" target="_blank">Webpage</a> where the content for the "The Others" section was taken.
+- Go through all the books that are listed in the app.
+- Easily check the book's title, author, category and the ready by date set by the entrepreneur.
+- Search for specific keywords and view only the books matching it.
 
-#### 1.3.3 Convert Imperial measurements to the Metric System. 🧮
+#### 1.3.3 Get in touch with the developer behind the project. 📧
 
-The website provides:
+The app provides:
 
-- A "Convert" section in which users can easily convert Imperial units to the Metric System.
-- The measuring properties considered for this project are Length, Area, Volume and Weight.
-- For each property, the project provides four options of units to be converted. For example, for Length, we offer Inch, Foot, Yard and Mile.
-- A "Reset Converter" button is provided to clear the converter for other conversions.
+- A "Contact Me" link which readers can use to get in touch with the developer. The link points to the developer's email address.
 
-#### 1.3.4 Get in touch with the developer behind the project. 📧
+### 1.4 App Wireframes (TO DO) 💻📱
 
-The website provides:
-
-- A "Contact" section in which users can get in touch with the developer. The form asks for Name, Email and a Message.
-- This is a fully operational contact form, which includes an automatic email sent to the user after submission.
-
-### 1.4 Website Wireframes 💻📱
-
-Below you will find the website's wireframes. These were generated using Balsamiq. There are two versions of the wireframes. Choose your option:
+Below you will find the app's wireframes. These were generated using Balsamiq. There are two versions of the wireframes. Choose your option:
 
 - Wireframes for the <a href="https://drive.google.com/file/d/1bCmX4HrQt4wVbTsTArFjPO-Wf3a5Vp_f/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in PDF</a>.
 - Wireframes for the <a href="https://drive.google.com/file/d/1sfSxslhGBw88hK4E2KWCFZT2NFAwRp1U/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in Balsamiq</a>.
@@ -101,22 +96,22 @@ Below you will find the website's wireframes. These were generated using Balsami
 
 First and foremost, the essential elements that had to be in place were:
 
-- **Responsiveness**: The website has to be fully responsive and adapt to different screen sizes.
-- **Interactivity**: The site has to provide users with interactivity and with more than just one type to demonstrate different managements of JS.
-- **Simplicity**: The website has to be simple, easy to navigate, read and interact.
+- **Responsiveness**: The app has to be fully responsive and adapt to different screen sizes.
+- **Interactivity**: The site has to provide users with interactivity and with more than just one type to demonstrate different managements of JS and CRUD development.
+- **Simplicity**: The app has to be simple, easy to navigate, read and interact.
 
-This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
+This project was developed to be presented as Milestone 3 for CI's Full Stack Software Development course. MS3 requires the explicit use of Python, Flask, MongoDB and CRUD development to provide site visitors with interactivity and data management, so the decision was made to focus on a simple overall app, but with clear, interactive elements and management levels in it.
 
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
 <span id="features"></span>
 
-## 2. Features ⚙
+## 2. Features (TO DO) ⚙
 
-- **Navigation bar:** It allows users to easily access all the sections of the webpage and content on the King Metric's website, at all times. It also provides a direct button taking them to the "Convert" section.
+- **Navigation bar:** It allows users to easily access all the sections of the webpage and content on the King Metric's app, at all times. It also provides a direct button taking them to the "Convert" section.
 - **Home section:** It welcomes users with a quick pitch about King Metric and those still using the Imperial System. It also provides a big button taking users to the "Convert" section.
-- **Footer:** It allows users to easily access all the sections of the webpage and content on the King Metric's website, at all times. It also provides a direct button taking them to the "Convert" section. Additionally, it provides users with direct links to the websites where the content was taken from for the "Origins" and "The Others" section.
+- **Footer:** It allows users to easily access all the sections of the webpage and content on the King Metric's app, at all times. It also provides a direct button taking them to the "Convert" section. Additionally, it provides users with direct links to the app where the content was taken from for the "Origins" and "The Others" section.
 - **Origins section:** It allows users to learn a bit about the history of the Metric System and where it came.
 - **The Others section:** It enables users to learn a bit about who is still officially using the Imperial System.
 - **Convert section:** It enables users to convert Imperial units to the Metric System. It provides conversion for units in Length, Area, Volume and Weight. It also provides a reset button, to clear the converter for new calculations if necessary.
@@ -131,26 +126,34 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 ### 3.1 Languages 🗣
 
 - <a href="https://en.wikipedia.org/wiki/HTML5" rel="noopener" target="_blank">**HTML/HTML5**</a>
-  - The project used **HTML/HTML5** as this is the essential language of websites.
+  - The project used **HTML/HTML5** as this is the essential language of web apps.
 - <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" rel="noopener" target="_blank">**CSS/CSS3**</a>
-  - The project used **CSS/CSS3** to provide the styles for the website.
+  - The project used **CSS/CSS3** to provide the styles for the app.
 - <a href="https://en.wikipedia.org/wiki/JavaScript" rel="noopener" target="_blank">**JavaScript**</a>
-  - The project used **JavaScript** to provide the interactivity for the website.
+  - The project used **JavaScript** to provide the interactivity for the app.
+- <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" rel="noopener" target="_blank">**Python**</a>
+  - The project used **Python** to assist with the development of the app and the communication with the database.
 
 ### 3.2 Frameworks ⌨
 
-- <a href="https://getbootstrap.com/" rel="noopener" target="_blank">**BootStrap 4**</a>
-  - The project used the **BootStrap 4** framework to help design the website faster and easier.
+- <a href="https://materializecss.com/" rel="noopener" target="_blank">**Materialize CSS**</a>
+  - The project used the **Materialize CSS** framework to help design the app faster and easier.
+- <a href="https://flask.palletsprojects.com/en/1.1.x/" rel="noopener" target="_blank">**Flask**</a>
+  - The project used the **Flask** framework to assist with the Python development.
 
 ### 3.3 IDEs 🖥
 
 - <a href="https://www.gitpod.io/" rel="noopener" target="_blank">**Gitpod**</a>
-  - The project used the **Gitpod** IDE to develop the website.
+  - The project used the **Gitpod** IDE to develop the app.
 
 ### 3.4 External Hostings 🏢
 
 - <a href="https://github.com/" rel="noopener" target="_blank">**GitHub**</a>
   - The project used the **GitHub** hosting service to save the project in a repository.
+- <a href="https://www.heroku.com/" rel="noopener" target="_blank">**Heroku**</a>
+  - The project used the **Heroku** service to deploy, manage, and scale the app.
+- <a href="https://www.mongodb.com/" rel="noopener" target="_blank">**MongoDB**</a>
+  - The project used the **MongoDB** database service to store the readers, books and categories.
 - <a href="https://imgur.com/" rel="noopener" target="_blank">**Imgur**</a>
   - The project used the **Imgur** service to host and access images online.
 - <a href="https://drive.google.com/" rel="noopener" target="_blank">**Google Drive**</a>
@@ -166,10 +169,6 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
   - The project used the **W3C Markup Validation Service** to validate the HTML code.
 - <a href="https://hackmd.io/" rel="noopener" target="_blank">**HackMD**</a>
   - The project used the **HackMD** to edit the README file.
-- <a href="https://developers.google.com/maps/documentation" rel="noopener" target="_blank">**Google Maps API**</a>
-  - The project used the **Google Maps API** to provide the interactive Google Maps.
-- <a href="https://www.emailjs.com/" rel="noopener" target="_blank">**EmailJS**</a>
-  - The project used the **EmailJS** to enable a functional contact form.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -179,15 +178,14 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 4.1 Testing Tools ⚗
 
-- <a href="https://jsfiddle.net/" rel="noopener" target="_blank">**JSFiddle**</a>
-  - The project used the **JSFiddle** tool to test ideas and codes in a safe environment.
+
 - <a href="https://developers.google.com/web/tools/chrome-devtools" rel="noopener" target="_blank">**Chrome DevTools**</a>
   - The project used **Chrome DevTools** to test variations to the CSS rules and ideas to its optimisation.
-  - The project also used it to <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode" rel="noopener" target="_blank">**Simulate Mobile Devices**</a> and test the website behaviour on mobile views.
-- <a href="https://en.wikipedia.org/wiki/IPhone_8" rel="noopener" target="_blank">**iPhone 8**</a>
-  - The project used an **iPhone 8** mobile device to test the website in a real mobile environment.
+  - The project also used it to <a href="https://developers.google.com/web/tools/chrome-devtools/device-mode" rel="noopener" target="_blank">**Simulate Mobile Devices**</a> and test the app behaviour on mobile views.
+- <a href="https://en.wikipedia.org/wiki/IPhone_12" rel="noopener" target="_blank">**iPhone 12**</a>
+  - The project used an **iPhone 12** mobile device to test the app in a real mobile environment.
 - <a href="https://en.wikipedia.org/wiki/IPad_(2017)" rel="noopener" target="_blank">**iPad (5th Generation)**</a>
-  - The project used an **iPad (5th Generation)** mobile device to test the website in a real mobile environment.
+  - The project used an **iPad (5th Generation)** mobile device to test the app in a real mobile environment.
 
 ### 4.2 Testing Planning ✅
 
@@ -197,23 +195,22 @@ Details about how testing was conducted and the outcomes.
 
 The developer decided that testing was going to be conducted in parallel with the project development, which means that regularly, during the development of the project, the developer used Chrome DevTools to test the behaviour of the project both in desktop and mobile views.
 
-The JS interactive elements were tested with its development, to make sure that the code was providing the expected outcomes consistently.
+The JS interactive elements and database management were tested with its development, to make sure that the code was providing the expected outcomes consistently.
 
 Testing the project in mobile devices was conducted towards the project's end, and only once all main sections were implemented and tested with CDT.
 
 #### 4.2.2 Implementation. 🔨
 
-As indicated above, JSFiddle and CDT were the main tools used to test the project regularly.
+As indicated above, CDT was the primary tool used to test the project regularly.
 
 Here's how this looked like:
 
 - Chrome browser was used as the primary tool.
 - On one tab, Gitpod open with the project.
 - On a second tab, the preview of the project, using the "python3" method inside Gitpod.
-- On that second tab, CDT open to visualise and test styles, and use the console.
-- On a third tab, JSFiddle to check the JS codes and snippets.
+- On that second tab, CDT open to visualise and test styles, behaviour and use the console.
 
-Once the project had finished, and the Github repository was live using Github pages, the project was tested with the mobile devices mentioned above.
+Once the project was deployed via Heroku, the project was tested with the mobile devices mentioned above.
 
 #### 4.2.3 Results. 📊
 
@@ -221,16 +218,17 @@ Since the testing was ongoing, the results of it were many during that period. M
 
 - **CSS rules not working**: CDT used to review the reasons, detect the root of the problem and apply the fix back to the CSS rules.
 - **JS code not working**: Console used to review the potential reasons. Once possible solutions were detected, they were tested with the code and eventually fix the problem.
+- **Python code not working**: Checking back and forth the code and its logic to detect the root of the problem and apply the necessary fixes to accomplish expected outcomes.
 
 #### 4.2.4 Outcomes. 🚀
 
 The eventual outcome of each testing was detecting issues, evaluating the reasons and finding the solutions.
 
-Once the root of each issue is detected, then the applied solution is coded into the corresponding code, whether that's the HTML, CSS, JS or API.
+Once the root of each issue is detected, then the applied solution is coded into the corresponding code, whether that's the HTML, CSS, JS or Python.
 
 **With each error detected and fixed, the developer's knowledge increased.**
 
-### 4.3 Testing User Stories 🙆‍♀️
+### 4.3 Testing User Stories (TO DO) 🙆‍♀️
 
 Going over the user stories indicated in the UX section to ensure that they work as intended.
 
@@ -289,27 +287,15 @@ Carlos developed this project using Gitpod’s IDE. He pushed all developments t
 
 He followed the steps below:
 
-1. He first created the repository inside his GitHub account. <a href="https://github.com/betahope/king-metric" rel="noopener" target="_blank">Repo URL</a>.
+1. He first created the repository inside his GitHub account. <a href="https://github.com/betahope/Entrepreneur-Bookshelf" rel="noopener" target="_blank">Repo URL</a>.
 2. He launched the project on Gitpod from the repository, using Gitpod's Chrome extension.
 3. He continued his work and development on Gitpod.
 4. He pushed all relevant and significant changes to the repository, from Gitpod, regularly.
-5. Once the project was completed, he published the project using <a href="https://pages.github.com/" rel="noopener" target="_blank">GitHub Pages</a>.
+5. He deployed the project using <a href="https://www.heroku.com/" rel="noopener" target="_blank">Heroku</a>.
 
 There are no differences between the deployed and the developed version. Carlos used one branch: master.
 
 You can run and view the project by following this URL: <a href="https://betahope.github.io/king-metric/" rel="noopener" target="_blank">View Project</a>.
-
-### 5.1 Refactoring 🎛
-
-Once all JS code was fully tested and everything was working as intended, it was time for refactoring, because the original codes were not optimal.
-
-The following functions were refactored:
-
-- PropertyConverter() in file propertyConvert.js.
-- UnitConverter() in file unitConvert.js.
-- ValueConverter() in file valueConvert.js.
-
-The original codes were saved in a folder called "beforeRefactoring", inside assets/js. This was done to enable easy access to those versions if needed.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -317,7 +303,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ## 6. Credits 👉
 
-### 6.1 Code Snippets 🧬
+### 6.1 Code Snippets (TO DO) 🧬
 
 - Knowledge for usage of Google Maps API: <a href="https://developers.google.com/maps/documentation/javascript/tutorial?hl=es" rel="noopener" target="_blank">Google Documentation</a>.
 - Inspiration for coding improvement on the Google Maps API: <a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw" rel="noopener" target="_blank">Traversy Media</a>.
