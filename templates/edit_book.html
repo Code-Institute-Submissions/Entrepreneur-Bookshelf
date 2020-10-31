@@ -107,7 +107,9 @@
       <div class="input-field col s12">
         <div class="switch">
           <i
-            class="fas fa-hand-point-right prefix orange-text text-darken-4 text-shadow"
+            class="fas fa-hand-point-right prefix orange-text text-darken-4 text-shadow tooltipped"
+            data-position="top"
+            data-tooltip="Is reading it a priority?"
           ></i>
           <label for="is_priority">
             {% if book.is_priority == "on" %}
@@ -121,7 +123,7 @@
             <input type="checkbox" id="is_priority" name="is_priority" />
             {% endif %}
             <span class="lever"></span>
-            Is a Priority
+            Reading it is a Priority
           </label>
         </div>
       </div>
