@@ -315,7 +315,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 ### 6.1 Code Snippets 🧬
 
 - Knowledge for usage of Materialize CSS: <a href="https://materializecss.com/" rel="noopener" target="_blank">Materialize CSS</a>.
-- Inspiration and initial base code for the app: <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/9e2f12f5584e48acb3c29e9b0d7cc4fe/054c3813e82e4195b5a4d8cd8a99ebaa/" rel="noopener" target="_blank">Code Institute To-Do List Mini-Project</a>
+- Inspiration and initial base code for the app: <a href="https://github.com/Code-Institute-Solutions/TaskManagerAuth" rel="noopener" target="_blank">Code Institute To-Do List Mini-Project</a>
 
 ### 6.2 Media 📸
 
