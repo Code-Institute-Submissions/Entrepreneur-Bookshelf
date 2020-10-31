@@ -34,64 +34,70 @@
   <body>
     <header>
       <!-- Main top navigation bar -->
-      <nav class="nav-extended text-shadow orange darken-4">
-        <div class="nav-wrapper">
-          <a href="{{ url_for('get_books') }}" class="brand-logo"
-            >Entrepreneur's Bookshelf</a
-          >
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"
-            ><i class="fas fa-bars"></i
-          ></a>
-          <ul class="right hide-on-med-and-down">
-            <li>
-              <a
-                href="{{ url_for('get_books') }}"
-                class="waves-effect waves-light"
-                >Home</a
-              >
-            </li>
-            {% if session.reader %}
-            <li>
-              <a
-                href="{{ url_for('profile', username=session['reader']) }}"
-                class="waves-effect waves-light"
-                >Profile</a
-              >
-            </li>
-            <li>
-              <a
-                href="{{ url_for('add_book') }}"
-                class="waves-effect waves-light"
-                >New Book</a
-              >
-            </li>
-            {% if session.reader|lower == "admin"|lower %}
-            <li>
-              <a href="{{ url_for('get_categories') }}">Manage Categories</a>
-            </li>
-            {% endif %}
-            <li>
-              <a href="{{ url_for('logout') }}" class="waves-effect waves-light"
-                >Log Out</a
-              >
-            </li>
-            {% else %}
-            <li>
-              <a href="{{ url_for('login') }}" class="waves-effect waves-light"
-                >Log In</a
-              >
-            </li>
-            <li>
-              <a
-                href="{{ url_for('register') }}"
-                class="waves-effect waves-light"
-                >Register</a
-              >
-            </li>
-            {% endif %}
-          </ul>
-        </div>
-      </nav>
+      <div class="navbar-fixed">
+        <nav class="nav-extended text-shadow orange darken-4">
+          <div class="nav-wrapper">
+            <a href="{{ url_for('get_books') }}" class="brand-logo"
+              >Entrepreneur's Bookshelf</a
+            >
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"
+              ><i class="fas fa-bars"></i
+            ></a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a
+                  href="{{ url_for('get_books') }}"
+                  class="waves-effect waves-light"
+                  >Home</a
+                >
+              </li>
+              {% if session.reader %}
+              <li>
+                <a
+                  href="{{ url_for('profile', username=session['reader']) }}"
+                  class="waves-effect waves-light"
+                  >Profile</a
+                >
+              </li>
+              <li>
+                <a
+                  href="{{ url_for('add_book') }}"
+                  class="waves-effect waves-light"
+                  >New Book</a
+                >
+              </li>
+              {% if session.reader|lower == "admin"|lower %}
+              <li>
+                <a href="{{ url_for('get_categories') }}">Manage Categories</a>
+              </li>
+              {% endif %}
+              <li>
+                <a
+                  href="{{ url_for('logout') }}"
+                  class="waves-effect waves-light"
+                  >Log Out</a
+                >
+              </li>
+              {% else %}
+              <li>
+                <a
+                  href="{{ url_for('login') }}"
+                  class="waves-effect waves-light"
+                  >Log In</a
+                >
+              </li>
+              <li>
+                <a
+                  href="{{ url_for('register') }}"
+                  class="waves-effect waves-light"
+                  >Register</a
+                >
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+        </nav>
+      </div>
 
       <!-- Mobile navigation -->
       <ul class="sidenav center-align" id="mobile-demo">
