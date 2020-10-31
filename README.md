@@ -295,7 +295,7 @@ He followed the steps below:
 
 There are no differences between the deployed and the developed version. Carlos used one branch: master.
 
-You can run and view the project by following this URL: <a href="https://betahope.github.io/king-metric/" rel="noopener" target="_blank">View Project</a>.
+You can run and view the project by following this URL: <a href="https://flask-book-manager-project.herokuapp.com/" rel="noopener" target="_blank">View Project</a>.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
