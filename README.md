@@ -18,7 +18,7 @@
 
 <span id="project"></span>
 
-# Entrepreneur's Bookshelf
+# Entrepreneur's Bookshelf 📚
 
 This project presents a to-read list focused on entrepreneurship, with book categories focused on the different areas that an entrepreneur must manage and consider.
 
