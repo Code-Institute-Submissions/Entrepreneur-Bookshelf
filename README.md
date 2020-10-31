@@ -108,15 +108,24 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 <span id="features"></span>
 
-## 2. Features (TO DO) ⚙
+## 2. Features ⚙
 
-- **Navigation bar:** It allows users to easily access all the sections of the webpage and content on the King Metric's app, at all times. It also provides a direct button taking them to the "Convert" section.
-- **Home section:** It welcomes users with a quick pitch about King Metric and those still using the Imperial System. It also provides a big button taking users to the "Convert" section.
-- **Footer:** It allows users to easily access all the sections of the webpage and content on the King Metric's app, at all times. It also provides a direct button taking them to the "Convert" section. Additionally, it provides users with direct links to the app where the content was taken from for the "Origins" and "The Others" section.
-- **Origins section:** It allows users to learn a bit about the history of the Metric System and where it came.
-- **The Others section:** It enables users to learn a bit about who is still officially using the Imperial System.
-- **Convert section:** It enables users to convert Imperial units to the Metric System. It provides conversion for units in Length, Area, Volume and Weight. It also provides a reset button, to clear the converter for new calculations if necessary.
-- **Contact section:** It allows users to get in touch with the developer through a simple and fully functional contact form.
+- **Navigation bar:** It allows readers to easily access all the sections of the app and content, at all times.
+- **Home page:** It welcomes readers with the list of all books already entered in the bookshelf. It also provides easy navigation. If a reader is logged in, they will also be able to edit their books and mark them as read.
+- **Footer section:** It allows readers to know the purpose of the app, get in touch with the developer and know a bit more about him by visiting his website.
+- **Registration:** It allows visitors to register as readers in the app.
+- **Logging In:** It allows registered readers to access their accounts.
+- **Adding a new book:** It allows readers to add books to their to-read list.
+- **Profile page:** Readers can view all books they have yet to read. It also allows them to edit the book if needed, and mark them as read.
+- **Manage Categories page:** It allows the admin of the app to manage the book categories. That includes adding new categories, editing and deleting existing ones.
+- **Logging Out:** It allows registered readers that are logged in into their accounts, to log out from them.
+
+### 2.1 Potential Features/Improvements 🧰
+
+- **Archiving books:** Instead of marking books as read and removing them from the readers' view, there's potential to archive them, and not delete them from the database.
+- **Recovering archived books:** Give readers an option to unarchive the books that they marked as read in the past.
+- **Adding already listed books to their profile:** Allow readers that are reviewing books listed by other readers, also to add them to their own to-read list.
+- **Readers communication:** To allow readers to communicate with each other.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
