@@ -11,6 +11,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+body main {
+  min-height: 80vh;
+}
+
+footer {
+ margin-top: 2rem;
+}
+
 nav .brand-logo {
   margin-left: 3.2rem;
 }
