@@ -34,6 +34,8 @@ One of the purposes of this project is to demonstrate the developer skills with 
 - The admin profile, which allows for management of the app's categories.
 - The search function, allowing readers to search within the books listed by keyword.
 
+You can run and view the project by following this URL: <a href="https://flask-book-manager-project.herokuapp.com/" rel="noopener" target="_blank">View Project</a>.
+
 _This project is for educational purposes only._
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
