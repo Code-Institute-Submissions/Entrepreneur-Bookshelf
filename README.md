@@ -85,7 +85,7 @@ The app allows entrepreneurs to:
 
 The app provides:
 
-- A "Contact Me" link which readers can use to get in touch with the developer. The link points to the developer's email address.
+- A "Get in Touch" link in the footer which readers can use to get in touch with the developer. The link points to the developer's email address.
 
 ### 1.4 App Wireframes (TO DO) 💻📱
 
