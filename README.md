@@ -312,28 +312,20 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ## 6. Credits 👉
 
-### 6.1 Code Snippets (TO DO) 🧬
+### 6.1 Code Snippets 🧬
 
-- Knowledge for usage of Google Maps API: <a href="https://developers.google.com/maps/documentation/javascript/tutorial?hl=es" rel="noopener" target="_blank">Google Documentation</a>.
-- Inspiration for coding improvement on the Google Maps API: <a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw" rel="noopener" target="_blank">Traversy Media</a>.
-- Inspiration for the converter: <a href="https://www.w3schools.com/howto/howto_js_length_converter.asp" rel="noopener" target="_blank">W3Schools</a>.
-- Inspiration for the contact form: <a href="https://github.com/betahope/resume-project" rel="noopener" target="_blank">Resume Project (Part of CI curriculum)</a>.
-- Inspiration for the fraction number in Hero section: <a href="https://stackoverflow.com/questions/7525977/how-to-write-fraction-value-using-html" rel="noopener" target="_blank">Stack Overflow</a>.
+- Knowledge for usage of Materialize CSS: <a href="https://materializecss.com/" rel="noopener" target="_blank">Materialize CSS</a>.
+- Inspiration and initial base code for the app: <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/9e2f12f5584e48acb3c29e9b0d7cc4fe/054c3813e82e4195b5a4d8cd8a99ebaa/" rel="noopener" target="_blank">Code Institute To-Do List Mini-Project</a>
 
 ### 6.2 Media 📸
 
-- Background image in Hero section: <a href="https://www.pexels.com/photo/white-10-feet-steel-tape-162500/" rel="noopener" target="_blank">Pexels</a>.
-- King Metric logo: <a href="https://drive.google.com/file/d/11uMF7-ZxtWjsPS5vrtC6LwDzR1vIIWox/view?usp=sharing" rel="noopener" target="_blank">Created with Keynote</a>.
-- Content for "Origins" section: <a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" rel="noopener" target="_blank">Wikipedia</a>.
-- Content for "The Others" section: <a href="https://www.worldatlas.com/articles/which-countries-use-the-imperial-system.html" rel="noopener" target="_blank">WorldAtlas</a>.
+- Entrepreneur's Bookshelf icon: <a href="https://www.iconfinder.com/icons/1055107/bookshelf_books_library_icon" rel="noopener" target="_blank">IconFinder</a>.
 - Font Awesome icons: <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a>.
-- Flags for Google Maps: <a href="https://www.iconfinder.com/iconsets/flags_gosquared" rel="noopener" target="_blank">IconFinder</a>.
-- Image with people measuring (France): <a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" rel="noopener" target="_blank">Wikipedia</a>.
-- Lato, Google Font: <a href="https://fonts.google.com/specimen/Lato?query=lato" rel="noopener" target="_blank">Lato</a>.
+- Poppins, Google Font: <a href="https://fonts.google.com/specimen/Poppins" rel="noopener" target="_blank">Poppins</a>.
 
 ### 6.3 Acknowledgements 🙏
 
-- **Jonathan Munz _(My CI Mentor)_**: Thanks for your support as a mentor. You have provided excellent guidance, feedback and inputs into my ideas and development. Looking forward to working together again on the next milestones.
+- **Jonathan Munz _(My CI Mentor)_**: Thanks for your support as a mentor. You have provided excellent guidance, feedback and inputs into my ideas and development. I am looking forward to working together again in the next milestone.
 - **CI Slack Community**: Through several conversations and calls, I continuously improve my knowledge as an engineer, and I grow as a person.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
