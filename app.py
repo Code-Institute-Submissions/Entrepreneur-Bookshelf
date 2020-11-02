@@ -1,3 +1,6 @@
+# Base of this code was inspired by CI To-Do list Mini-Project (https://github.com/Code-Institute-Solutions/TaskManagerAuth).
+# Code base was modified and adapted to meet the project's need.
+
 import os
 from flask import Flask, flash, render_template, redirect, request, session, url_for
 from flask_pymongo import PyMongo
