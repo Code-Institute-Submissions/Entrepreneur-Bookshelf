@@ -127,6 +127,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 - **Recovering archived books:** Give readers an option to unarchive the books that they marked as read in the past.
 - **Adding already listed books to their profile:** Allow readers that are reviewing books listed by other readers, also to add them to their own to-read list.
 - **Readers communication:** To allow readers to communicate with each other.
+- **Sorting:** Give readers an option on how they would like to sort the list of books.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
