@@ -91,7 +91,7 @@ The app provides:
 
 ### 1.4 App Wireframes 💻📱
 
-As the project was developer inspired by the to-do list from the CI Full-Stack course, no wireframes were developed, as they design maintain most of the same structure.
+As the project was inspired by the to-do list from the CI Full-Stack course, no wireframes were developed, as the design maintains most of the same structure.
 
 There are clear differences between the to-do mini-project and this one. However, the developer did not consider them to be sufficient on their own to require any wireframes.
 
@@ -165,7 +165,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 - <a href="https://www.heroku.com/" rel="noopener" target="_blank">**Heroku**</a>
   - The project used the **Heroku** service to deploy, manage, and scale the app.
 - <a href="https://www.mongodb.com/" rel="noopener" target="_blank">**MongoDB**</a>
-  - The project used the **MongoDB** database service to store the readers, books and categories.
+  - The project used the **Atlas - MongoDB** database service to store the readers, books and categories.
 - <a href="https://imgur.com/" rel="noopener" target="_blank">**Imgur**</a>
   - The project used the **Imgur** service to host and access images online.
 - <a href="https://drive.google.com/" rel="noopener" target="_blank">**Google Drive**</a>
@@ -267,6 +267,7 @@ Going over the user stories indicated in the UX section to ensure that they work
    2. They can go to the footer scrolling to the bottom of any of the app's pages.
    3. Under the "Links" title they will see the option to contact the developer at "@ Get in Touch!".
    4. They can click on it, which will trigger the creation of a new email addressed to the developer.
+   5. Try to accomplish the steps both on desktop and mobile views.
 
 ### 4.4 Bugs & Problems 🐛
 
@@ -288,7 +289,9 @@ He followed the steps below:
 2. He launched the project on Gitpod from the repository, using Gitpod's Chrome extension.
 3. He continued his work and development on Gitpod.
 4. He pushed all relevant and significant changes to the repository, from Gitpod, regularly.
-5. He deployed the project using <a href="https://www.heroku.com/" rel="noopener" target="_blank">Heroku</a>.
+5. He deployed the project using <a href="https://devcenter.heroku.com/categories/deployment" rel="noopener" target="_blank">Heroku</a>.
+
+**Note:** It's important to create your env.py file where you store your sensitive information, making sure .gitignore has it.
 
 There are no differences between the deployed and the developed version. Carlos used one branch: master.
 
