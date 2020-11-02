@@ -89,12 +89,11 @@ The app provides:
 
 - A "Get in Touch" link in the footer which readers can use to get in touch with the developer. The link points to the developer's email address.
 
-### 1.4 App Wireframes (TO DO) 💻📱
+### 1.4 App Wireframes 💻📱
 
-Below you will find the app's wireframes. These were generated using Balsamiq. There are two versions of the wireframes. Choose your option:
+As the project was developer inspired by the to-do list from the CI Full-Stack course, no wireframes were developed, as they design maintain most of the same structure.
 
-- Wireframes for the <a href="https://drive.google.com/file/d/1bCmX4HrQt4wVbTsTArFjPO-Wf3a5Vp_f/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in PDF</a>.
-- Wireframes for the <a href="https://drive.google.com/file/d/1sfSxslhGBw88hK4E2KWCFZT2NFAwRp1U/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in Balsamiq</a>.
+There are clear differences between the to-do mini-project and this one. However, the developer did not consider them to be sufficient on their own to require any wireframes.
 
 ### 1.5 Design Decisions 🎨 🖌
 
