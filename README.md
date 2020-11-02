@@ -239,48 +239,34 @@ Once the root of each issue is detected, then the applied solution is coded into
 
 **With each error detected and fixed, the developer's knowledge increased.**
 
-### 4.3 Testing User Stories (TO DO) 🙆‍♀️
+### 4.3 Testing User Stories 🙆‍♀️
 
 Going over the user stories indicated in the UX section to ensure that they work as intended.
 
-1. Learn a bit more about the history of the Metric System.
+1. Keep track of their entrepreneurship reading.
 
-   1. Go to the "Origins" section through the top menu or by scrolling down the page.
-   2. Scroll down through the page to read the piece of history about the origins of the Metric System.
-   3. Learn with it that the French invented it between 1790 and 1800.
-   4. Learn with it that this was done during the French Revolution.
+   1. If they are not yet registered, visit the registration page through the top menu option titled "Register".
+   2. If they are registered, login into their account through the top menu option titled "Log In".
+   3. They have two ways of checking their listed book. One way is through the home page (menu option titled "Home"), where their books will be the only ones with the options to be edited and mark as read. The second way is through their profile (menu option titled "Profile"), where they will only have a list of their books.
+   4. They can add new books to their to-read list through the top menu option titled "New Book".
+   5. They can edit their books by clicking the "Edit" button next to each of them.
+   6. They can mark their book as read by clicking the "Read" button next to each of them, which will remove that book from their list.
+   7. Try to accomplish the steps both on desktop and mobile views.
+
+2. Learn about what others entrepreneurs are reading.
+
+   1. They don't need to register to learn about what other entrepreneurs are reading. It's not a requirement.
+   2. They can go to the home page through the top menu option titled "Home" or by simply visiting the app.
+   3. They will be able to scroll through all the books listed in the app. By clicking on them, the collapsible element will open, presenting them with the book's category, author and which entrepreneur added it.
+   4. All book's collapsible elements have a main header which contains the book's title and the 'read by date' set by the entrepreneur.
    5. Try to accomplish the steps both on desktop and mobile views.
 
-2. Learn who is still officially using the Imperial System.
+3. Get in touch with the developer behind the project.
 
-   1. Go to the "The Others" section through the top menu or by scrolling down the page.
-   2. Scroll down through the page to read the piece of information about the countries that are still officially using the Imperial System.
-   3. Interact with Google Maps, which highlights the three countries.
-   4. Learn with it that the USA, Myanmar and Liberia are the only countries still officially using the Imperial System.
-   5. Learn with it that the UK is not on that list. 😉 😉
-   6. Try to accomplish the steps both on desktop and mobile views.
-
-3. Convert Imperial measurements to the Metric System.
-
-   1. Go to the "Convert" section through the menu or footer button. The "Home" section also provides one additional button with the main content.
-   2. Change the property and check if the rest of the converter reacts to it (the unit selector must change).
-   3. Change the unit and check if the rest of the converter reacts to it.
-   4. Input a value in the input field and check if the converter reacts to it. (here is when the converter runs the conversion).
-   5. Maintain the inputted value and change the property and unit selectors and check if the converter reacts to it, and recalculates.
-   6. Change the inputted value and check if the converter reacts to it by recalculating.
-   7. Click on the "Reset Converter" button and check if the converter resets to its original values.
-   8. Try to accomplish the steps both on desktop and mobile views.
-
-4. Get in touch with the developer behind the project.
-
-   1. Go to the "Contact" section through the menu or footer options.
-   2. Try to submit an empty contact form and check that an error message about the required fields appears.
-   3. Try to submit the contact form with an invalid email address and check that the error message appears.
-   4. Try to submit the contact form with all inputs valid and check that the information is processed and a confirmation message is presented.
-   5. Try to submit the contact form with all inputs valid and verify that a confirmation message is presented immediately after.
-   6. Try to acknowledge the confirmation message and check that the contact form is cleared.
-   7. Try to submit the contact form with all inputs valid and verify that an email is sent with a confirmation of the message sent.
-   8. Try to accomplish the steps both on desktop and mobile views.
+   1. They don't need to register to get in touch with the developer behind the project. It's not a requirement.
+   2. They can go to the footer scrolling to the bottom of any of the app's pages.
+   3. Under the "Links" title they will see the option to contact the developer at "@ Get in Touch!".
+   4. They can click on it, which will trigger the creation of a new email addressed to the developer.
 
 ### 4.4 Bugs & Problems 🐛
 
