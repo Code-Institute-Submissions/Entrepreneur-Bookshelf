@@ -269,6 +269,14 @@ Going over the user stories indicated in the UX section to ensure that they work
    4. They can click on it, which will trigger the creation of a new email addressed to the developer.
    5. Try to accomplish the steps both on desktop and mobile views.
 
+#### 4.3.1 Testing "Hacking" User Stories 👨🏼‍💻
+
+1. Protecting admin sections from users forcing themselves into admin sections.
+
+   1. A reader may try to force themselves into the "Manage Categories" section for admins by placing "/get_categories" at the end of the app's URL.
+   2. A reader may try to force themselves into the "Edit Category" page for admins by placing "/edit_category/<category_id>" at the end of the app's URL.
+   3. In both instances, the app will validate that it's the admin accessing it. Otherwise, it will show an error message stating "No Admin Logged In".
+
 ### 4.4 Bugs & Problems 🐛
 
 There were no brand-new or relevant bugs/problems during the development of this project.
